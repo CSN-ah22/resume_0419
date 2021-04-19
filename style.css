@@ -88,6 +88,8 @@ section{
     float: left;
     display: inline; /* 다른 요소도 옆에 붙일수 있게 하는 보험 */
     /* txtalign 은 한줄을 차지하고 왼쪽으로 가서 안됨 */
+    border: 1px solid #2D333b;
+    height: 89.92px;
 }
 .sns-wrap{
     text-align: right; /* 한줄 넘기고 정렬하는 거니까 괜찮음 */
