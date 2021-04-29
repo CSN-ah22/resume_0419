@@ -1,104 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-    font-family:'Montserrat';
-  
-}
-h1,h2,body{
-    margin:0px;
-    padding:0px;
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap");
+
+* {
+  font-family: "Montserrat";
 }
 
-footer{
-    text-align: center;
-    background-color: #1e1e1e;
-    color: #919191;
-    font-size: 12px;
-    padding:20px;
+body,
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
 }
 
-.mainbox{
-    width:610px;
-    padding:30px;
-    margin:30px;
-    margin:0 auto;
-    /* margin-right: auto;
-    margin-left: auto; */
-    border:1px solid #ebebeb;
-    box-shadow : 0 1px 20px 0 rgba(0,0,0,0,0.1);
-    background-color: #fff;
+body {
+  min-width: fit-content;
 }
 
-.name-text{
-    font-size: 16px;
-    color:#7c7c7c;
-    font-weight: bold;
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
 }
 
-h1{
-    font-weight: bold;
-    font-size: 36px;
-    font-style:italic;
+h2 {
+  font-size: 20px;
+  color: #282828;
+  font-weight: lighter;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 5px;
 }
 
-h2{
-    font-size: 20px;
-    color:#282828;
-    font-weight: lighter;
-    margin-bottom:16px;
-    padding-bottom:5px;
-    border-bottom: 1px solid #ebebeb;
+.name-text {
+  font-size: 16px;
+  color: #7c7c7c;
+  font-weight: bold;
 }
 
-.about-me-text{
-    font-size: 10px;
-    line-height: 16px;
+.about-me-text {
+  font-size: 10px;
+  line-height: 16px;
 }
 
-section{
-    margin-bottom: 24px;
+.mainbox {
+  width: 610px;
+  padding: 30px;
+  margin: 30px;
+  margin-right: auto;  
+  margin-left: auto;   
+  border: 1px solid #ebebeb;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
 }
-.title-text{
-    font-size: 11px;
-    font-weight: bold;
-    color: #282828;
-    text-align: left;
+
+.title-box {
+  text-align: right;
 }
-.year-text{
-    font-size: 11px;
-    font-weight: bold;
-    color: #282828;
-    float: right;
+
+section {
+  margin-bottom: 24px;
 }
-.float-wrap{
-    overflow: hidden;
-    /* float 태그를 오버플로우 히든으로 감싸면 부작용 제거 */
+
+.float-wrap {
+  overflow: hidden;
 }
-.desc-text{
-    font-size: 10px;
+
+.title-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  float: left;
 }
-.desc-subtext{
-    font-size: 10px;
-    color: #282828;
-    padding-left: 16px;
+
+.year-text {
+  font-size: 11px;
+  font-weight: bold;
+  color: #282828;
+  float: right;
 }
-.title-box{
-    text-align: right;
+
+.desc-text {
+  font-size: 9px;
 }
-.profile-img{
-    float: left;
-    display: inline; /* 다른 요소도 옆에 붙일수 있게 하는 보험 */
-    /* txtalign 은 한줄을 차지하고 왼쪽으로 가서 안됨 */
-    border: 1px solid #2D333b;
-    height: 89.92px;
+
+.desc-subtext {
+  font-size: 9px;
+  color: #282828;
+  padding-left: 16px;
 }
-.sns-wrap{
-    text-align: right; /* 한줄 넘기고 정렬하는 거니까 괜찮음 */
+
+.sns-img {
+  width: 12px;
+  height: 12px;
 }
-.sns-img{
-    width: 12px;
-    height: 12px;
+
+.sns-wrap {
+  text-align: right;
 }
+
+.profile-img {
+  float: left;
+  display: inline;
+  border: 1px solid #2D333b;
+  height: 89px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 20px;
+  font-size: 12px;
+  color: #919191;
+}
+
 
 .graph { 
     position: relative; /* IE is dumb */
